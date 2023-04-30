@@ -68,6 +68,9 @@ button {
 .header {
     border-bottom: 1px solid;
     border-color: #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -144,10 +147,15 @@ button {
 
 .hero {
     background-color: #2e2f42;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/landingpage/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../images/landingpage/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    
 }
 
 .hero-content {
@@ -195,10 +203,14 @@ button {
 
 /*TASK ICONS*/
 .icon-task-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-width: 264px;
-    min-height: 112px;
+    height: 112px;
     background-color: #F4F4FD;
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .task-icon {
@@ -271,12 +283,11 @@ button {
     background-color: #ffff;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
 }
 
 .employee-card {
     text-align: center;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 
@@ -300,12 +311,13 @@ button {
     border-radius: 50%;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
     background-color: #404BBF;
 }
 
 .socials-icon {
-    fill: currentColor;
+    fill: #f4f4fd;
 }
 
 
@@ -317,24 +329,29 @@ button {
     align-items: center;
     gap: 24px;
 }
-
-.customer-item {
-    width: 168px;
+.customer-item{
+    width: calc((100% - 120px) / 6);
     height: 88px;
-    border: 1px solid #8E8F99;
-    padding: 16px 32px;
 }
 
+.customer-icon {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
 .customer-logo {
-    fill: #8E8F99;
-}
-
-.customer-item:hover {
-    border: 1px solid #404BBF;
-}
-
-.customer-logo:hover {
-    fill: #404BBF;
+    fill: currentColor;
 }
 
 /*FOOTER*/
@@ -343,6 +360,7 @@ button {
     display: inline-block;
     margin-bottom: 16px;
     margin-right: 0;
+    
 }
 
 .footer {
@@ -350,11 +368,13 @@ button {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.footer-left {
+    margin-right: 120px;
+}
 
 .footer-container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 
 .footer-info {
@@ -374,22 +394,28 @@ button {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
 
 /*FOOTER ICONS*/
+.footer-list{
+    gap: 16px;
+}
 
 .footer-socials {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-socials:hover {
+.footer-socials:hover,
+.footer-socials:focus {
     background-color: #31D0AA;
 }
-
+.footer-icon {
+    fill: #f4f4fd;
+}
 /* PORTFOLIO */
 .button-list {
     padding: 96px 0 120px;
@@ -402,7 +428,9 @@ button {
 
 .filter-btn:hover,
 .filter-btn:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-btn {
@@ -436,9 +464,15 @@ button {
     width: calc((100% - 48px) / 3);
 }
 
-.web-item:hover {
-    border: 1px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-link:hover,
+.portfolio-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-link{
+    display: block;
 }
 
 .app-list-content {
