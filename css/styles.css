@@ -144,7 +144,7 @@ button {
 
 .hero {
     background-color: #2e2f42;
-    background:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/landingpage/people-office\ 1.jpg);
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/landingpage/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 188px 0;
@@ -198,6 +198,7 @@ button {
     min-width: 264px;
     min-height: 112px;
     background-color: #F4F4FD;
+    margin-bottom: 8px;
 }
 
 .task-icon {
@@ -304,7 +305,7 @@ button {
 }
 
 .socials-icon {
-    fill:currentColor;
+    fill: currentColor;
 }
 
 
@@ -320,7 +321,7 @@ button {
 .customer-item {
     width: 168px;
     height: 88px;
-    border:1px solid #8E8F99;
+    border: 1px solid #8E8F99;
     padding: 16px 32px;
 }
 
@@ -333,7 +334,7 @@ button {
 }
 
 .customer-logo:hover {
-    fill:#404BBF;
+    fill: #404BBF;
 }
 
 /*FOOTER*/
@@ -364,7 +365,7 @@ button {
     max-width: 264px;
 }
 
-.footer-right{
+.footer-right {
     max-width: 208px;
 }
 
@@ -373,18 +374,19 @@ button {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height:1.2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-     color: #FFFFFF;
-     margin-bottom: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
+
 /*FOOTER ICONS*/
 
-.footer-socials{
-background: rgba(255, 255, 255, 0.1);
+.footer-socials {
+    background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-socials:hover{
+.footer-socials:hover {
     background-color: #31D0AA;
 }
 
