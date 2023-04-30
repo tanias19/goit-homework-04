@@ -144,6 +144,9 @@ button {
 
 .hero {
     background-color: #2e2f42;
+    background:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/landingpage/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 188px 0;
 }
 
@@ -161,7 +164,7 @@ button {
     color: #FFFFFF;
     max-width: 496px;
     margin: auto;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
 }
 
 
@@ -187,6 +190,18 @@ button {
 .hero-button:hover,
 .hero-button:focus {
     background: #404BBF;
+}
+
+
+/*TASK ICONS*/
+.icon-task-border {
+    min-width: 264px;
+    min-height: 112px;
+    background-color: #F4F4FD;
+}
+
+.task-icon {
+    margin: 24px 100px;
 }
 
 /* SECTION TASKS*/
@@ -264,6 +279,63 @@ button {
 }
 
 
+/*SOCIALS*/
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 8px;
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.socials-link:hover {
+    background-color: #404BBF;
+}
+
+.socials-icon {
+    fill:currentColor;
+}
+
+
+/*CUSTOMERS*/
+
+.customer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.customer-item {
+    width: 168px;
+    height: 88px;
+    border:1px solid #8E8F99;
+    padding: 16px 32px;
+}
+
+.customer-logo {
+    fill: #8E8F99;
+}
+
+.customer-item:hover {
+    border: 1px solid #404BBF;
+}
+
+.customer-logo:hover {
+    fill:#404BBF;
+}
+
 /*FOOTER*/
 
 .footer-btn {
@@ -278,6 +350,12 @@ button {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
 .footer-info {
     font-size: 16px;
     line-height: 1.5;
@@ -286,6 +364,29 @@ button {
     max-width: 264px;
 }
 
+.footer-right{
+    max-width: 208px;
+}
+
+.right-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+     color: #FFFFFF;
+     margin-bottom: 16px;
+}
+/*FOOTER ICONS*/
+
+.footer-socials{
+background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-socials:hover{
+    background-color: #31D0AA;
+}
 
 /* PORTFOLIO */
 .button-list {
@@ -295,6 +396,11 @@ button {
 .btn-list {
     justify-content: center;
     margin-bottom: 72px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .filter-btn {
@@ -326,6 +432,11 @@ button {
 
 .web-item {
     width: calc((100% - 48px) / 3);
+}
+
+.web-item:hover {
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .app-list-content {
