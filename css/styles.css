@@ -147,8 +147,7 @@ button {
 
 .hero {
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/landingpage/people-office\ 1.jpg);
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/landingpage/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -262,7 +261,7 @@ button {
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -403,10 +402,6 @@ button {
 /*FOOTER ICONS*/
 .footer-list{
     gap: 16px;
-}
-
-.footer-socials {
-    background: rgba(255, 255, 255, 0.1);
 }
 
 .footer-socials:hover,
