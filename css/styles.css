@@ -211,10 +211,6 @@ button {
     border-radius: 4px;
 }
 
-.task-icon {
-    margin: 24px 100px;
-}
-
 /* SECTION TASKS*/
 
 .visually-hidden {
@@ -288,6 +284,9 @@ button {
     padding: 32px 0;
 }
 
+.team-list {
+    margin-top: 8px;
+}
 
 /*SOCIALS*/
 
@@ -296,7 +295,6 @@ button {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding-top: 8px;
 }
 
 .socials-link {
